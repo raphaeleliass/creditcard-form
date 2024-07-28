@@ -30,7 +30,6 @@ function Home() {
   const [cardExpMonthErrMsg, setCardExpMonthErrMsg] = useState("");
 
   const [cardExpYearErr, setCardExpYearErr] = useState(false);
-  const [cardExpYearErrMsg, setCardExpYearErrMsg] = useState("");
 
   const [cardCvcErr, setCardCvcErr] = useState(false);
   const [cardCvcErrMsg, setCardCvcErrMsg] = useState("");
@@ -77,11 +76,11 @@ function Home() {
     const currentYear = new Date().getUTCFullYear().toString().slice(2);
     if (cardExpYear.length < 2 || cardExpYear < currentYear) {
       setCardExpYearErr(true);
-      setCardExpYearErrMsg("Invalid Year.");
+
       return false;
     } else {
       setCardExpYearErr(false);
-      setCardExpYearErrMsg("");
+
       return true;
     }
   }

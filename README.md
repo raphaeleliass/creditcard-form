@@ -30,8 +30,8 @@ Este projeto foi criado com o objetivo de demonstrar minhas habilidades em valid
 
 ## 🔗 Links
 
-- **Projeto Online**: [Credit Card form](https://github.com/raphaeleliass/creditcard-form)
-- **Repositório no GitHub**: [GitHub](https://github.com/raphaeleliass/credit-card-form)
+- **Projeto Online**: [Credit Card form](https://raphaelelias-creditcard-form.vercel.app)
+- **Repositório no GitHub**: [GitHub](https://github.com/raphaeleliass/creditcard-form)
 
 ## ⚙️ Como Executar o Projeto
 
