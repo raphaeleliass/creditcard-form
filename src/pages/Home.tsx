@@ -12,7 +12,7 @@ import { Input } from "@/components/ui/input";
 import { useState } from "react";
 
 function Home() {
-  const [cardNumber, setCardNumber] = useState("");
+  // Value states
   const [cardName, setCardName] = useState("");
   const [cardNumber, setCardNumber] = useState("");
   const [cardExpMonth, setCardExpMonth] = useState("");
