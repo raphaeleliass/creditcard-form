@@ -8,7 +8,7 @@ const CreditCard = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "mx-auto flex h-48 w-full max-w-xs flex-col justify-between rounded-lg bg-white shadow-xl md:max-w-full lg:h-[17rem] lg:w-[30rem]",
+      "mx-auto flex h-48 w-full max-w-xs flex-col justify-between rounded-xl bg-white shadow-xl lg:max-w-full lg:h-[17rem] lg:w-[30rem]",
       className,
     )}
     {...props}

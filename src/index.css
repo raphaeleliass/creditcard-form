@@ -7,9 +7,17 @@ body {
 }
 
 .frontcard {
-  @apply left-40 px-8 py-6 top-32 bg-gradient-to-b from-purple-500 to-purple-900 text-white lg:absolute;
+  @apply left-40 top-32 bg-gradient-to-b from-purple-500 to-purple-900 px-8 py-6 text-white lg:absolute;
 }
 
 .backcard {
   @apply left-56 top-[28rem] bg-gradient-to-b from-gray-100 to-gray-400 lg:absolute;
+}
+
+.label {
+  @apply w-full max-w-xs space-y-2;
+}
+
+.input-err {
+  @apply ring-1 ring-red-500;
 }
